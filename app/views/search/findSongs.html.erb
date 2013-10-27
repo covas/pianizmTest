@@ -1,0 +1,10 @@
+<table>
+<% @tunes.each do |tune| %>
+    <tr>
+      <td style = "color:blue ; " ><%= tune[:name] %></td>
+      <td style = "color: blue ; " ><%= tune[:url]  %>
+      <%= name = tune[:name] %>
+      <td style "color:red ; " ><%= link_to "link", "../songs?name="+name.to_s  , class: "btn btn-success" %></td>
+    </tr>
+<% end %>
+</table>

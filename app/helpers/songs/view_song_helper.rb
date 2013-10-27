@@ -1,0 +1,2 @@
+module Songs::ViewSongHelper
+end

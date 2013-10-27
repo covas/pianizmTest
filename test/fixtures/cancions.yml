@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  image: MyString
+  tags: MyString
+  views: MyString
+  category: MyString
+  level: 1
+  quality: 1
+  author: MyString
+  info: MyString
+
+two:
+  image: MyString
+  tags: MyString
+  views: MyString
+  category: MyString
+  level: 1
+  quality: 1
+  author: MyString
+  info: MyString
